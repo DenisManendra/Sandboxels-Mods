@@ -149,6 +149,24 @@ elements.chowder = {
 	state: "solid",
 	hidden: true,
 		};
-		
+
+elements.es_jeruk = {
+	color: "#deae4e",
+	behavior: behaviors.LIQUID,
+	category: "food",
+	state: "liquid",
+	stateHigh: "liquid",
+	tempHigh: 100
+		};
+
+elements.es_teh = {
+	color: "#94350c",
+	behavior: behaviors.LIQUID,
+	category: "food",
+	state: "liquid",
+	stateHigh: "liquid",
+	tempHigh: 100
+		};
+
 		if (!elements.milk.reactions) elements.milk.reactions = {};
 elements.milk.reactions.corn = { elem1: null, elem2: "chowder" }
